@@ -7,7 +7,7 @@ object MyApp extends App
 {
   
   println(1232)
-  
+//  https://www.cnblogs.com/zhangzh/archive/2010/01/11/1644030.html
   val service = (new backend.WeatherWebServiceSoap12Bindings with
     scalaxb.SoapClientsAsync with
     scalaxb.DispatchHttpClientsAsync {}).service
